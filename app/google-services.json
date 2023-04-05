@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "965908788382",
+    "firebase_url": "https://firetwo-97e48-default-rtdb.firebaseio.com",
+    "project_id": "firetwo-97e48",
+    "storage_bucket": "firetwo-97e48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965908788382:android:94e5bec9b1d59e148cb78f",
+        "android_client_info": {
+          "package_name": "com.example.two"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965908788382-bml6g2g1pdes9ae0h5l9gerqsube85l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBm95WICuciDdN1hWGjiNrLQX9z3FW3oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965908788382-bml6g2g1pdes9ae0h5l9gerqsube85l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeMenu"
+        android:icon="@drawable/home"
+        android:title="홈"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/comunityMenu"
+        android:icon="@drawable/chat"
+        android:title="커뮤니티"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/partyMenu"
+        android:icon="@drawable/party"
+        android:title="파티"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/searchMenu"
+        android:icon="@drawable/search"
+        android:title="검색"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profileMenu"
+        android:icon="@drawable/baseline_person_outline_24"
+        android:title="내정보"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid
+                        android:color="#FFFFFF">
+                    </solid>
+                    <corners
+                        android:radius="8dp"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/baseline_unfold_more_24"
+                android:width="24dp" android:height="35dp"
+                android:gravity="right|center" android:start="10dp" android:top="1dp">
+            </item>
+
+        </layer-list>
+    </item>
+</selector>
