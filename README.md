@@ -35,7 +35,7 @@ Surprise 라이브러리의 SVD ( Singular Value Decomposition ) 와 KNN ( K-Nea
 # TWO 시연영상
 https://user-images.githubusercontent.com/120348468/229675154-9021f6e8-5304-41c6-87a5-32f037d267e3.mp4
 
-# 프로젝트를 통한 배운점과 아쉬운 점
+# 프로젝트를 통한 배운점
 **GitHub Aws Key open** <br/>
 프로젝트를 진행 중 레파지토리가 public으로 된 상태에서 config 파일안에 AWS의 Key값이 들어가니 Key가 노출되는 현상이 발생하였다 <br/> 이를 해결한 방법은 AWS Key를 재발급 받고 AWS IAM에서 유저권한을 다시 재설정 하였다 <br/> <br/>
 **API 서버 에러** <br/>
@@ -45,8 +45,7 @@ Retrofit 라이브러리를 이용한 회원가입 진행부분에서 사진이 
 **추천 시스템** <br/>
 추천 시스템 구현시에 SVD 모델 한개만을 사용하여 구현을 했더니 데이터의 총량이 적은게 문제가 되어 <br/> 모든 추천 스코어를 동일하게 뿌리는 현상이 발생했다 <br/> 
 이를 해결하기 위해 SVD와 KNN을 하이브리드해서 사용하였다 <br/> <br/>
-**아쉬운 점** <br/>
+**AWS Lambda** <br/>
 자동배포도중 에러가 발생하였는데 이는 AWS Lambda에 Surprise 라이브러리를 계층으로 만들고 사용하려고하니 <br/>
-람다의 쓰레드와 호환성 문제가 발생하여 사용을 할 수 없었다 <br/> 이를 해결하기위해서는 도커 이미지로 만들어서 ECR로 배포하거나
-다른 라이브러리 ( ex : tensorflow ) 를 이용해서 재설계해야했다 <br/>
-처음부터 라이브러리의 종속성을 따져 설계해야된다는점과 보안의 중요성을 깨달은 프로젝트였다.
+람다의 쓰레드와 호환성 문제가 발생하여 사용을 할 수 없었다 <br/> 이를 해결하기위해서 도커 이미지로 만들어서 ECR ( Elastic Container Registry ) 로 수동 배포 후 <br/>
+다시 GitHub Actions 로 CI/CD 환경을 구축해서 자동배포하였다.
