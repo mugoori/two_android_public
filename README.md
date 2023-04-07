@@ -35,7 +35,7 @@ Surprise 라이브러리의 SVD ( Singular Value Decomposition ) 와 KNN ( K-Nea
 # TWO 시연영상
 https://user-images.githubusercontent.com/120348468/229675154-9021f6e8-5304-41c6-87a5-32f037d267e3.mp4
 
-# 프로젝트를 통한 배운점
+# 프로젝트 진행시 에러 해결
 **GitHub Aws Key open** <br/>
 프로젝트를 진행 중 레파지토리가 public으로 된 상태에서 config 파일안에 AWS의 Key값이 들어가니 Key가 노출되는 현상이 발생하였다 <br/> 이를 해결한 방법은 AWS Key를 재발급 받고 AWS IAM에서 유저권한을 다시 재설정 하였다 <br/> <br/>
 **API 서버 에러** <br/>
