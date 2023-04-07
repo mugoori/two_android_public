@@ -27,7 +27,7 @@ TMDB API 를 이용해 데이터 가져오기 <br/> google colab 이용 <br/> pa
 Slack을 이용한 팀원간 회의 및 아이디어 공유 <br/> GitHub contributors를 통한 레파지토리 공유 및 소스코드 관리 <br/> AWS Lambda 를 이용한 serverless 배포 <br/> GitHub Actions를 이용한 자동 배포
 
 # 안드로이드 ( Front - end )
-KaKao oven 을 이용한 화면기획서 구성 <br/> android studio 를 이용한 프론트앤드 개발 <br/> Bootpay API 라이브러리로 결제 구현
+KaKao oven 을 이용한 화면기획서 구성 <br/> android studio 를 이용한 프론트앤드 개발 <br/> Bootpay API 로 결제 구현
 
 # 인공지능 
 Surprise 라이브러리의 SVD ( Singular Value Decomposition ) 와 KNN ( K-Nearest Neighbors ) 을 하이드브리드해서 유저 경험 기반 추천 시스템 구현
